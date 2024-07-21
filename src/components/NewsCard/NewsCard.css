@@ -1,0 +1,11 @@
+/* NewsCard.css */
+.news-card {
+    transition: background-color 0.3s ease, border 0.3s ease; /* Smooth transition */
+  }
+  
+  .news-card.highlighted {
+    background-color: #ffeb3b; /* Highlight color */
+    color: #000000; /* Text color for highlighted card */
+    border: 2px solid #fbc02d; /* Border color for highlighted card */
+  }
+  
