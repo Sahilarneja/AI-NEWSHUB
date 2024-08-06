@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# AI NEWSHUB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI NEWSHUB is an AI-powered application designed to fetch and read news articles based on voice commands. Utilizing Alan AI as the voice assistant, users can easily get the latest news, search for news by specific terms, and explore news from different sources with simple voice commands. The application is built using React for the frontend, and the backend for handling intents is also written in JavaScript.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Latest News**: Get the most recent news articles.
+- **News by Terms**: Search for news articles based on specific terms or keywords.
+- **News by Sources**: Explore news articles from various trusted sources.
 
-### `npm start`
+## Voice Commands
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### General Intents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Say**: "Hello"
+  - Response: "Hello! How can I assist you today?"
+- **Say**: "What can I do here?"
+  - Response: "You can ask for the latest news, news based on specific terms, or news from different sources."
 
-### `npm test`
+### Latest News
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Get the latest news articles.
 
-### `npm run build`
+- **Try saying**: 
+  - "Get the latest news"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### News by Terms
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Get news articles based on specific terms or keywords.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Try terms like**: 
+  - Technology, Stock Market, Microsoft, AI, Climate Change, Cryptocurrency, etc.
+- **Try saying**: 
+  - "What's up with Technology"
 
-### `npm run eject`
+### News by Sources
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Explore news articles from different sources.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Try sources like**: 
+  - CNN, BBC News, The Guardian, Reuters, Al Jazeera, Forbes, etc.
+- **Try saying**: 
+  - "Give me the news from CNN"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Home Page
+<img width="1436" alt="image" src="https://github.com/user-attachments/assets/b06be1f0-624e-4982-abd4-b9951f01e83d">
 
-## Learn More
+### After Intent
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/15ea2b57-f630-4f92-99bc-3e1565384048">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
